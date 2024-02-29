@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: #292929;
+    font-family: 'calibri';
+    background-image: url(./images/fondo1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+img {
+    width: 150px;
+    height: 80px;
+    float: left;
+    padding: 8px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 60px;
+    padding: 25px 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+
+}
+
+nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: #444;
+    height: 5px;
+    top: 0;
+    position: absolute;
+}
+
+nav ul li a:hover:before {
+    width: 100%;
+}
+.menu{
+    width: 1100px;
+}
+
+header {
+    background: rgb(85, 135, 135);
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+
+}
+.bienvenida{
+    max-width: 800px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: justify;
+    margin-left: 18%;
+    margin-top: 0%;
+}
